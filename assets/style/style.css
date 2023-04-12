@@ -1,10 +1,217 @@
-#header{
-    background-color: #e5e5e5;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    background-color: #fff;
     display: flex;
-    width: 20%;
-    height: 100%;
+    width: 100%;
+    height: 20%;
+    justify-content: space-around;
 }
 .anh_logo{
-    width:10%;
+    width:3%;
     height: 20%;
+    margin: 7px 30% 14px 14%;
+}
+.information{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 7px 10% 14px 20%;
+    align-items: center;
+    width: 20%;
+}
+.inform{
+    color: #015000;
+    padding: 0 10px 0;
+    width: 40%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+.contact{
+    background-color: #015000;
+    color: #fff;
+    border-radius: 50px;
+    width: 30%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gachduoi1{
+    position: absolute;
+    background-color: #c6c6c6;
+    width: 100%;
+    border: 1px solid #c6c6c6;
+    align-items: center;
+}
+.dautrang{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30%;
+}
+.clb{
+    width: 40%;
+    height: 55%;
+    margin: 9.7em 5.3em 9.8em 14%;
+}
+.tenclb{
+    font-size: 75px;
+    color: #015000;
+}
+.mucdich{
+    font-size: 24px;
+}
+.page{
+    list-style: none;
+    font-size: 150%;
+    display: flex;
+    margin-top: 70px;
+}
+.xemthem{
+    box-sizing: border-box;
+    width: 30%;
+    height: 38px;
+    border-radius: 50px;
+    border: 3px solid #015000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.fanpage{
+    background-color: #015000;
+    color: #fff;
+    border-radius: 50px;
+    width: 27%;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.anhmota{
+    width: 61%;
+    height: 76%;
+    margin: 5.7em 4.3em 2.8em 5em;
+}
+.gachduoi2{
+    background-color: #c6c6c6;
+    width: 71%;
+    border: 1px solid #c6c6c6;
+    display: flex;
+    justify-content: center;
+    margin-left: 13%;
+}
+.introduce{
+    width: 70%;
+    margin: 3% 13%;
+}
+.intro{
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 700;
+    color: #015000;
+    margin-bottom: 16px;
+}
+.born{
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #333;
+    margin-bottom: 12px;
+}
+.vision{
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #333;
+}
+.formatclb{
+    width: 70%;
+    margin: 3% 13%;
+}
+.cautruc{
+    color: #015000;
+    font-size: 64px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+.informat{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.chieurong{
+    width: 33.3%;
+    margin: 2% 1%;
+
+}
+.image{
+    width: 100%;
+}
+.the_content{
+
+}
+.the_media{
+
+}
+.the_finance{
+
+}
+.name{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #015000;
+    margin-left: 7%;
+}
+.noidung{
+    font-size: 20px;
+    line-height: 119.5%;
+    margin: 2% 7%;
+    font-weight: 300;
+    color: #333;
+}
+.active{
+    width: 70%;
+    margin: 3% 13%;
+}
+.act{
+    color: #015000;
+    font-size: 64px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+.hoatdong{
+    width: 100%;
+    margin: 2% 0%;
+    display: flex;
+    justify-content: space-around;
+}
+.number{
+    font-size: 144px;
+    font-weight: 700;
+    line-height: 144px;
+    color: #015000;
+    display: flex;
+    justify-content: center;
+}
+.thongtin{
+    position: absolute;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center;
+    color: #333;
+    width: 22%;
 }
